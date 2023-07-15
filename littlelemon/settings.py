@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'restaurant'
+    'djoser',
+    'restaurant',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
@@ -132,3 +134,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = 'restaurant/static/'
+DJOSER={"USER_ID_FIELD":"username"}
