@@ -1,0 +1,9 @@
+admin/
+api-auth/login
+api-auth/logout
+restaurant/booking/
+auth/users/
+api/menu-items/
+api/menu-items/id
+api/message
+api/api-token-auth/
